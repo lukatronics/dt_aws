@@ -1,0 +1,12 @@
+name: dt_aws_pj
+channels:
+  - conda-forge
+dependencies:
+  - python==3.11
+  - pip
+  - numpy==1.23.5
+  - scipy==1.10.0
+  - matplotlib==3.7.0
+  - pandas==1.5.3
+  - tqdm
+  
