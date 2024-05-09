@@ -2,6 +2,11 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report, accuracy_score
 import pandas as pd
 import numpy as np
+"""
+Author: Lucas(Jeonghoo) Yoo
+Simple Decision Tree Project for AWS
+"""
+
 
 # Reads a dataset and returns features and labels.
 def read_data(filename):
