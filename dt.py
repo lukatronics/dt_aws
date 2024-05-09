@@ -77,6 +77,10 @@ def evaluate_model(dt, X_test, y_test, target_names):
     print("Classification Report:")
     print(classification_report(y_test, predictions, target_names=target_names, zero_division=0))
 
+    # print each predictions
+    for i, (pred, true) in enumerate(zip(predictions, y_test)):
+        print(f"Test Example {i + 1}: Predicted = {target_names[pred]}, Actual = {target_names[true]}")
+
 if __name__ == "__main__":
     """
     The main function to train and evaluate the decision tree model.
