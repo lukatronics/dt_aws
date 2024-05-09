@@ -1,0 +1,9 @@
+label,Budget,Project_size,Company_Size
+Lambda,low,S,Startup
+EC2,medium,M,Enterprises
+Lambda,low,S,Enterprises
+Lambda,low,S,Startup
+Lambda,medium,M,Startup
+EC2,medium,L,Enterprises
+EC2,high,L,Startup
+EC2,high,M,Enterprises
